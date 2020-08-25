@@ -23,13 +23,13 @@ Please consider citing the original authors if you use this codes and data:
 
 ## Sample reconstruction
 Below are some sample reconstruction of 4 times under-sampled data from a model trained with coronal PD FS data.
-![Coronal PD FS](./sample_recon/sample_cor_pd_fs.png)
+![Coronal PD FS](sample_recon/sample_cor_pd_fs.png)
 Sample coronal PD FS reconstruction
-![Coronal PD](./sample_recon/sample_cor_pd.png)
+![Coronal PD](sample_recon/sample_cor_pd.png)
 Sample coronal PD reconstruction
-![Sagittal PD](./sample_recon/sample_sagittal_pd.png)
+![Sagittal PD](sample_recon/sample_sagittal_pd.png)
 Sample Sagittal PD reconstruction
-![Sagittal T2](./sample_recon/sample_sagittal_t2.png)
+![Sagittal T2](sample_recon/sample_sagittal_t2.png)
 Sample Sagittal T2 reconstruction
 
 ## Requirements
