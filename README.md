@@ -3,7 +3,7 @@
 This repository contains a pytorch implementation of the variational network for MRI reconstruction that was published in these papers.
 
  - Hammernik et al., [*Learning a variational network for reconstruction of accelerated MRI data*](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.26977), Magnetic Resonance in Medicine, 79(6), pp. 3055-3071, 2018.
- - Knoll et al., [*Assessment of the generalization of learned image reconstruction and the potential for transfer learning*](https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.26977), Magnetic Resonance in Medicine, 2018 (early view).
+ - Knoll et al., [*Assessment of the generalization of learned image reconstruction and the potential for transfer learning*](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.27355), Magnetic Resonance in Medicine, 2018 (early view).
 
 Please consider citing the original authors if you use this codes and data:
 ```
