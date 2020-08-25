@@ -21,6 +21,17 @@ Please consider citing the original authors if you use this codes and data:
 }
 ```
 
+## Sample reconstruction
+Below are some sample reconstruction of 4 times under-sampled data from a model trained with coronal PD FS data.
+![Coronal PD FS](./sample_recon/sample_cor_pd_fs.png)
+Sample coronal PD FS reconstruction
+![Coronal PD](./sample_recon/sample_cor_pd.png)
+Sample coronal PD reconstruction
+![Sagittal PD](./sample_recon/sample_sagittal_pd.png)
+Sample Sagittal PD reconstruction
+![Sagittal T2](./sample_recon/sample_sagittal_t2.png)
+Sample Sagittal T2 reconstruction
+
 ## Requirements
 The codes in this repo has been tested with Ubuntu 16.04, pytorch 1.6.0, and python 3.8.3 with anaconda. You can create an anaconda environment with the included `env.yml` to make sure the codes run without problems.
 
@@ -46,6 +57,8 @@ Sample testing command:
 python run_varnet.py --mode eval --root_dir data/knee --name coronal_pd_fs --gpus 0
 ```
 By default, the code will load the model `varnet.h5` at `exp/basic_varnet` and run inference on the evaluation patients and slices defined at `data_utils.py`. The zero-filled input, network output, ground truth fully-sampled image, and error map is saved at the experiment directory.
+
+A model trained on coronal PD FS data is provided in the `trained_model` folder.
 
 ## Visualization
 Visualization of the learnt kernel and the activation function can be run with the notebook `visualization.ipynb`. Path to a trained model needs to be supplied. The kernels are shown as (real,imaginary) pair. Activation and potential function for a specific cell and channel can be examined.
